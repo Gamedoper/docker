@@ -1,0 +1,257 @@
+
+    1  ls
+    2  docker build -t
+    3  docker build -t joshi
+    4  docker build -t Dockerfile
+    5  ls
+    6  docker build -t /app
+    7  docker create
+    8  docker create joshi
+    9  clear
+   10  docker build -t ijayaprakash/first:1.0 Dockerfile
+   11  ls
+   12  docker build -t ijayaprakash/first:1.0 Dockerfile
+   13  docker build -t ijayaprakash/first:1.0 ./Dockerfile
+   14  docker build -t firstimage:lastest Dockerfile
+   15  docker build -t firstimage:lastest Dockerfile
+   16  docker build -t ijayaprakash:latest
+   17  docker build -t
+   18  docker build -t myimage:latest
+   19  docker build  myimage:latest
+   20  docker build -t  myimage:latest
+   21  docker build -t
+   22  docker build t
+   23  docker build t jai:image Dockerfile
+   24  docker build -t myimage:latest .
+   25  vi Dockerfile
+   26  docker build -t myimage:latest .
+   27  docker images
+   28  docker run -d --name firstcontainer -p 8080:8080 myimage
+   29  curl localhost:8080
+   30  docker ps
+   31  docker stop a10def86767a
+   32  docker ps
+   33  dicker un -t myimage bash
+   34  docker un -t myimage bash
+   35  docker run -t myimage bash
+   36  ls
+   37  cd k8s-demo/
+   38  ls
+   39  cd docker
+   40  ls
+   41  docker ps
+   42  docker ps -a
+   43  docker ps
+   44  docker stop -t1
+   45  docker history
+   46  docker history myimage
+   47  docker tag myimage:v1
+   48  docker tag myimage myimage:v1
+   49  ls
+   50  docker ps
+   51  docker images
+   52  docker ls
+   53  docker images
+   54  docker logs first
+   55  docker logs myimage
+   56  docker logs ls
+   57  docker run -d --name firstcontainer -p 8080:8080 myimage
+   58  docker ps
+   59  docker ps -a
+   60  docker images
+   61  docker run myimage
+   62  docker ps
+   63  docker
+   64  docker run myimage
+   65  docker run -d myimage
+   66  docker ps
+   67  docker logs myimage
+   68  docker logs 9f884c6560af
+   69  docker exec -it myimage bash
+   70  docker exec -it 9f884c6560af bash
+   71  docker cp Dockerfile 9f884c6560af:/tmp
+   72  ls
+   73  docker stop 9f884c6560af
+   74  docker ps
+   75  docker ps -a
+   76  ls
+   77  docker start 9f884c6560af
+   78  docker ps
+   79  docker run -d second -p 8001:8080 joshi:1.0
+   80  docker run -d second -p 8001:8080 docker vibrant_keldysh
+   81  docker run -d second -p 8001:8080 .
+   82  docker run -d second -p 8001:8080 vibrant_keldysh
+   83  docker run -d second -p 8001:8080
+   84  docker images
+   85  docker run -d myimage -p 8001:8080
+   86  ls
+   87  cd k8s
+   88  cd k8s-demo/
+   89  ls
+   90  cd docker
+   91  ls
+   92  docker run -d myimage -p 8001:8080
+   93  docker run -d myimage -p 8001:8080 Dockerfile
+   94  docker ps
+   95  docker build -t myimage
+   96  docker build -t
+   97  docker build -t .
+   98  docker build
+   99  docker build -t
+  100  docker build -t .
+  101  docker images
+  102  docker build -t --latest
+  103  docker build -t latest
+  104  docker build -t myimage /
+  105  docker build -t myimage .
+  106  docker images
+  107  docker inspect d052fac8ce81
+  108  docker run -d --name -p 8001:8080 myimage:latest
+  109  docker run -d --second -p 8001:8080 myimage:latest
+  110  docker ps -a
+  111  docker stop myimage
+  112  docker stop
+  113  docker stop 28f3344ba0c4
+  114  docker images
+  115  docker ps -a
+  116  docker ps
+  117  docker stop 9f884c6560af
+  118  docker ps
+  119  git clone git@github.com:opencord/voltha.git
+  120  docker start myimage
+  121  docker start first
+  122  docker ps
+  123  docker run -d --name second -p 8001:8000 myimage:1.0
+  124  docker images
+  125  docker run -d --name second -p 8001:8000 myimage:latest
+  126  docker run -d --name third -p 8001:8000 myimage:latest
+  127  docker run -d --name third -p 8000:8000 myimage:latest
+  128  docker run -d --name fourth  -p 8000:8000 myimage:latest
+  129  curl localhost:8000
+  130  curl localhost:8001
+  131*
+  132  docker stop .
+  133  docker ps
+  134  docker stop e4e594bfa278
+  135  docker stop 7b033315d85f
+  136  docker ps
+  137  docker run -d --name third -p 8000:8080 myimage:latest
+  138  docker run -d --name seven -p 8000:8080 myimage:latest
+  139  curl localhost:8080
+  140  docker images
+  141  docker ls
+  142  docker ps
+  143  curl localhost:8000
+  144  docker stop baba6acb883f
+  145  docker ps
+  146  docker images
+  147  docker build -t myimage:latest .
+  148  vi Dockerfile
+  149  docker build -t myimage:latest .
+  150  vi Dockerfile
+  151  docker build -t myimage:latest .
+  152  docker login
+  153  docker images
+  154  docker pull rajendrait99/cognixia15jan:1.0
+  155  docker images
+  156  docker tag myimage:latest myimage:1.0
+  157  docer images
+  158  docker tag myimage:latest joshi16:1.0
+  159  docker images
+  160  docker push joshi16:1.0
+  161  docker login
+  162  docker push joshi16:1.0
+  163  docker push ijayaprakash:1.0
+  164  docker push ijayaprakash/joshi16:1.0
+  165*
+  166  docker tag myimage:latest ijayaprakash:1.0
+  167  docker images
+  168  docker push ijayaprakash/ijayaprakash:docker build -t /app
+  169  docker push ijayaprakash/ijayaprakash:1.0
+  170  docker push ijayaprakash/1.0
+  171  docker tag myimage:latest ijayaprakash:myimage:1.0
+  172  docker tag myimage:latest ijayaprakash:myimage:latest
+  173  docker tag myimage:latest ijayaprakash/myimage:1.0
+  174  docker images
+  175  docker push ijayaprakash/myimage
+  176  docker push ijayaprakash/myimage:latest
+  177  docker ps
+  178  docker push ijayaprakash/joshi:tagname
+  179  docker push ijayaprakash/joshi:1.0
+  180  docker images
+  181  docker push ijayaprakash/myimage:1.0
+  182  docker ps
+  183  docker images
+  184  docker ps -a
+  185  docker run -d --name stateful -p 8000:8080 -v /opt:/etc/foo ijayaprakash/myimage:1.0
+  186  ls /opt
+  187  docker ps
+  188  docker exec -it stateful
+  189  docker exec -it 66c128ca5515
+  190  docker exec -it stateful bash
+  191  ks
+  192  ls
+  193  docker ps
+  194  ls /opt
+  195  cd /opt/containerd/
+  196  ls
+  197  cd
+  198  docker images
+  199  docker ps
+  200  cd /opt
+  201  ls
+  202  cd containerd/
+  203  ls
+  204  cd bin/
+  205  ls
+  206  cd lib
+  207  ls
+  208  cd
+  209  docker volume
+  210  docker inpsect
+  211  docker inspect
+  212  docker images
+  213  docker ps
+  214  docker inspect stateful
+  215  docker stop stateful
+  216  ls
+  217  docker ps
+  218  docker start stateful
+  219  docker ps
+  220  docker stop stateful
+  221  ls
+  222  docker ps
+  223  docker network ls
+  224  docker ps
+  225  docker remove stateful
+  226  docker rm stateful
+  227  docker networks
+  228  docker network
+  229  ifconfig
+  230  apt install net-tools
+  231  ifconfig
+  232  docker network inspect bridge
+  233  docker images
+  234  docker run -d --name stateful -p 8000:8080 ijayaprakash/myimage:1.0
+  235  docker inspect
+  236  ifconfig
+  237  apt install net-tools
+  238  ifconfig
+  239  docker ps
+  240  docker network ls
+  241  docker network inspect bridge
+  242  docker run -d --name statefulsecond -p 8001:8080 ijayaprakash/myimage:1.0
+  243  ifcondig
+  244  docker network inspect bridge
+  245  docker stop stateful statefulsecond
+  246  docker rm stateful statefulsecond
+  247  docker network inspect bridge
+  248  docker network create mynet --subnet 192.168.80.0/24
+  249  docker network ls
+  250  ifconfig
+  251  docker run -d --name first  -p 8001:8080 --network mynet ijayaprakash/myimage:1.0
+  252  ifconfig
+  253  docker network inspect bridge
+  254  docker network inspect mynet
+  255  histroy
+  256  history
